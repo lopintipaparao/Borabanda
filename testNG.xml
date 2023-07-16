@@ -1,0 +1,12 @@
+<suite name="CrossBrowsing" threadcount="5" parallel="methods">
+
+
+<test name="ChromeTest">
+<parameter name="browsername" value="chrome"></parameter>
+<classes>
+<class name="com.orangehrm.testscripts.LoginPageTest">
+</class>
+</classes>
+</test>
+
+</suite>
